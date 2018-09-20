@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <body>
+        {{ js|indent(4)|safe }}
+        {{ css|indent(4)|safe }}
+        {{ lc_script|safe }}
+        {{ lc_plot|safe }}
+
+    <p><a class="btn" href="{{ url_for('transform', proposal=prop) }}">See transformed plot!&raquo;</a></p>
+        
+    <body>
+
+{% endblock %}
+

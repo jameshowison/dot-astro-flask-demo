@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+Now the time is in JD -- SURPRISE!
+    <body>
+        {{ js|indent(4)|safe }}
+        {{ css|indent(4)|safe }}
+        {{ lc_script|safe }}
+        {{ lc_plot|safe }}
+    <body>
+
+{% endblock %}
+
