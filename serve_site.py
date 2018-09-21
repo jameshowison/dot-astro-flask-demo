@@ -1,3 +1,4 @@
+
 """ This is a quick n dirty flask demo.
 The idea is to look at how we can import 
 cool Python packages (homegrown or otherwise)
@@ -58,7 +59,7 @@ def transform(proposal):
     mjd_transform = Time(mjd, format='mjd').jd
          
     # Plot it up
-    TOOLS = 'box_zoom,resize,reset'
+    TOOLS = 'box_zoom,wheel_zoom,reset'
     plot = figure(tools=TOOLS, title='Light Curve : Proposal {}'.format(proposal), 
             plot_width=700, plot_height=500)
     plot.circle(mjd_transform, data['flux'], alpha=.2, color='black', size=10)
@@ -90,7 +91,7 @@ def plot_light_curve(proposal):
     mjd, flux = data['mjd'], data['flux']
          
     # Plot it up
-    TOOLS = 'box_zoom,resize,reset'
+    TOOLS = 'box_zoom,wheel_zoom,reset'
     plot = figure(tools=TOOLS, title='Light Curve : Proposal {}'.format(proposal), 
             plot_width=700, plot_height=500)
     plot.circle(mjd, data['flux'], alpha=.2, color='black', size=10)
