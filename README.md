@@ -1,5 +1,11 @@
 This is a toy website to demonstrate some Day-1 capabilities with Flask.
 
+Requirements : 
+All you need to run this demo is Python3, Flask, Astropy, and Bokeh. I leave to
+your own discretion how you find yourself with these packages, but conda and
+pip are great allies at this time. Here's the Flask installation instructions
+if you'd like something more thorough : http://flask.pocoo.org/docs/1.0/installation/
+
 Once you have Flask, Astropy, and Bokeh installed you should be able to run 
 the website with :
     
