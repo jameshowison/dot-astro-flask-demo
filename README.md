@@ -6,15 +6,16 @@ the website with :
     python serve_site.py
 
 This should return an active session in your terminal : 
- * Serving Flask app "serve_site" (lazy loading)
- * Environment: production
-   WARNING: Do not use the development server in a production environment.
-   Use a production WSGI server instead.
- * Debug mode: on
- * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
- * Restarting with fsevents reloader
- * Debugger is active!
- * Debugger PIN: 102-907-216
+     
+     * Serving Flask app "serve_site" (lazy loading)
+     * Environment: production
+       WARNING: Do not use the development server in a production environment.
+       Use a production WSGI server instead.
+     * Debug mode: on
+     * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+     * Restarting with fsevents reloader
+     * Debugger is active!
+     * Debugger PIN: 102-907-216
 
 If you open up http://0.0.0.0:5000/ in a browser you can play with the website. 
 (I reccomend an incognito window if you plan to edit and run the site mutliple
